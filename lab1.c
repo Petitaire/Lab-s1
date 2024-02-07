@@ -4,7 +4,7 @@ int main(){
   //task 1: print my name
     printf("My name is QZ.\n");
 
-  //task 2: print a character 
+  //task 2: print a character and its ASCII value
     char c;
     printf("Enter a character: ");
     scanf("%c", &c);
@@ -22,10 +22,10 @@ int main(){
     float num1, num2, result;
     printf("Enter two numbers: ");
     scanf("%f %f", &num1, &num2);
-    printf("The numbers you entered are [floats]: %f %f\n", num1, num2);
+    printf("The numbers you entered are [floats]: %.2f %.2f\n", num1, num2);
     printf("The numbers you entered are [integers]: %d %d\n", (int)num1, (int)num2);
     result = num1 / num2;
-    printf("%f divides %f is %f\n", num1, num2, result);
+    printf("%.2f divides %.2f is %.2f\n", num1, num2, result);
 
 return 0;
 }
