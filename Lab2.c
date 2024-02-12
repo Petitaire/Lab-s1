@@ -13,7 +13,7 @@ int main (int argc, char *argv[]) {
         int result1, result2;
 
 
-//command line arguments
+//use command line arguments
 
     if (argc<2)
     {
@@ -34,10 +34,7 @@ int main (int argc, char *argv[]) {
 //calculate power in iterative way
 	  result2 = iterative(base, N);
           printf("(Iterative)the %d power of %d is %d. \n", N, base, result2);
-
-
-         
-      
+	
     return 0;
 }
 
