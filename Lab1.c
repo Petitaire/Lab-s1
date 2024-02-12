@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(){
-  //task 1: print my name
+  //task 1: printf function
     printf("My name is QZ.\n");
 
   //task 2: print a character and its ASCII value
@@ -10,7 +10,7 @@ int main(){
     scanf("%c", &c);
     printf("%c %d\n",c, c); 
   
-  //task 3: calculate sum of two integers
+  //task 3: calculate the sum of two integers
     int a, b, sum;
     float quotient;
     printf("Enter two integer: ");
